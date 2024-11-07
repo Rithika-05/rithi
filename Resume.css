@@ -1,0 +1,79 @@
+/* Profile image styles */
+.profile-image img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 120px; /* Set the width */
+    height: 100; /* Keep the aspect ratio */
+    border-radius: 50%; /* Circular shape */
+}
+
+/* General body styles */
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* To position the image in the corner */
+}
+
+header .info {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Skills list styles */
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #e8f5e9;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Projects list styles */
+.projects ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
